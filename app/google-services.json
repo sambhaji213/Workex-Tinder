@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "837155049516",
+    "firebase_url": "https://workex-tinder.firebaseio.com",
+    "project_id": "workex-tinder",
+    "storage_bucket": "workex-tinder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837155049516:android:fdddb0e2a7120fcf",
+        "android_client_info": {
+          "package_name": "com.sk.workextinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837155049516-clbho7euqpcm5uihbc9hqcr33bp89grp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sk.workextinder",
+            "certificate_hash": "75c1e668ec41b90e0f0d4dda2e4d93962dedc78e"
+          }
+        },
+        {
+          "client_id": "837155049516-7r36c1jq3c6h6i43q4q6brhfo0kr9bbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRmA67XbHXFeklHfhLxX2QvAvj9T0Zle8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837155049516-7r36c1jq3c6h6i43q4q6brhfo0kr9bbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
