@@ -44,38 +44,26 @@ public class MyApplicationClass extends Application {
 
             @Override
             public void onActivityDestroyed(Activity arg0) {
-                // TODO Auto-generated method stub
-
             }
 
             @Override
             public void onActivityPaused(Activity arg0) {
-                // TODO Auto-generated method stub
-
             }
 
             @Override
             public void onActivityResumed(Activity arg0) {
-                // TODO Auto-generated method stub
-
             }
 
             @Override
             public void onActivitySaveInstanceState(Activity arg0, Bundle arg1) {
-                // TODO Auto-generated method stub
-
             }
 
             @Override
             public void onActivityStarted(Activity arg0) {
-                // TODO Auto-generated method stub
-
             }
 
             @Override
             public void onActivityStopped(Activity arg0) {
-                // TODO Auto-generated method stub
-
             }
         });
     }

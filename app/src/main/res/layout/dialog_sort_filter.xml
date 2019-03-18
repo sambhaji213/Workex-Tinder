@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_16">
+
+    <RadioGroup
+        android:id="@+id/radioGroupFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/hint_first_name"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/hint_last_name"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/hint_email"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/hint_date_of_birth"
+            android:textColor="@android:color/black" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/margin_8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCancel"
+            style="@style/MyButtonDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_40"
+            android:paddingStart="@dimen/margin_16"
+            android:paddingEnd="@dimen/margin_16"
+            android:text="@string/hint_cancel" />
+
+        <Button
+            android:id="@+id/buttonApply"
+            style="@style/MyButtonDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_40"
+            android:layout_marginStart="@dimen/margin_16"
+            android:paddingStart="@dimen/margin_16"
+            android:paddingEnd="@dimen/margin_16"
+            android:text="@string/hint_apply" />
+    </LinearLayout>
+
+</LinearLayout>

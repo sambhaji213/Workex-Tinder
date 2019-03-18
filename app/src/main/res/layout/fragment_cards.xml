@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteSmoke"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonSearch"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="@dimen/margin_40"
+            android:background="@drawable/ic_search_primary_24dp"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSort"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="@dimen/margin_40"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/ic_filter_list_primary_24dp"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/imageButtonReject"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="@dimen/margin_40"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/ic_cancel_primary_24dp"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/imageButtonAccept"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="@dimen/margin_40"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/ic_favorite_primary_24dp"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@+id/imageButtonChat"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="@dimen/margin_40"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/ic_chat_bubble_primary_24dp"
+            android:contentDescription="@null" />
+    </LinearLayout>
+
+    <com.mindorks.placeholderview.SwipeDirectionalView
+        android:id="@+id/swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

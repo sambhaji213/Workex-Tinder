@@ -6,5 +6,5 @@ package com.sk.workextinder.util;
 
 public class AppConstants {
 
-    public static final String FIREBASE_URL = "INCLUDE YOUR FIREBASE URL HERE";
+    public static final String MODEL = "model";
 }

@@ -4,5 +4,22 @@
 
     <string name="hint_network_error">No network connection available, please check your connection and try again.</string>
     <string name="hint_filter">Filter</string>
+    <string name="hint_user_details">User Details</string>
+    <string name="hint_login_with_google">Login with Google</string>
+    <string name="hint_tap_again_to_close">Tap again to Close</string>
+    <string name="hint_chat">Chat</string>
+    <string name="hint_write_a_message">Write a message...</string>
+    <string name="hint_apply">Apply</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_date_of_birth">Date of birth</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_sort_list">Sort List</string>
+    <string name="hint_search_list">Search In List</string>
+    <string name="hint_no_friend_found">No friend found</string>
+    <string name="hint_search_by_first_name_last_name_and_email">Search by first name, last name and email</string>
+    <string name="hint_no_result_found">No result found, please try again</string>
+    <string name="hint_please_select_search_by">Please select search by</string>
 
 </resources>
